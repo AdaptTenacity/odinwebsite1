@@ -2,4 +2,15 @@ header {
     display: flex;
     background-color: #1f2937;
     font-family: roboto;
+    color: #fff;
+    padding: 2rem;
+
+}
+
+.header1 {
+    align-items: flex-end;
+}
+
+.header2 {
+    align-items: flex-start;
 }
