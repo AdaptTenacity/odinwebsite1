@@ -9,10 +9,14 @@ header {
 .dark {
     background-color:#1f2937;
     font-family: roboto;
-    color: #fff;
-    
-
+    color: #fff;  
 }
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+}
+
 .abutton {
     border: none;
 }
