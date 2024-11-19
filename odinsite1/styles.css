@@ -24,6 +24,9 @@ header {
 
 .abutton {
     border: none;
+    border-radius: 12px;
+    padding: 0.5rem;
+    font-weight: 900;
 }
 
 .header1 {
