@@ -17,6 +17,11 @@ header {
     font-weight: 900;
 }
 
+.hero2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .abutton {
     border: none;
 }
