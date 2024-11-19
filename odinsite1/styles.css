@@ -4,12 +4,16 @@ header {
     font-family: roboto;
     color: #fff;
     padding: 2rem;
+    border: 0.3rem solid #1f2937;
+    
 }
 
 .dark {
     background-color:#1f2937;
     font-family: roboto;
-    color: #fff;  
+    color: #fff; 
+    border: 0.5rem solid #1f2937;
+    padding: 1rem
 }
 
 .awesome {
