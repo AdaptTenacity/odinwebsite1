@@ -4,7 +4,17 @@ header {
     font-family: roboto;
     color: #fff;
     padding: 2rem;
+}
 
+.dark {
+    background-color:#1f2937;
+    font-family: roboto;
+    color: #fff;
+    
+
+}
+.abutton {
+    border: none;
 }
 
 .header1 {
@@ -13,4 +23,11 @@ header {
 
 .header2 {
     align-items: flex-start;
+}
+
+button {
+    background-color: #3882F6;
+    color: #fff;
+    border: #fff solid;
+    border-radius: 0.1rem;
 }
