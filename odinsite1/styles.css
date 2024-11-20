@@ -37,6 +37,7 @@ header {
 .awesome {
     font-size: 48px;
     font-weight: 900;
+    margin: 12px; 
 }
 
 .hero2 {
@@ -48,7 +49,9 @@ header {
     border: none;
     border-radius: 12px;
     padding: 0.5rem;
+    margin: 1rem;
     font-weight: 900;
+    width: 120px;
 }
 
 .header1 {
@@ -64,4 +67,12 @@ button {
     color: #fff;
     border: #fff solid;
     border-radius: 0.1rem;
+}
+
+.quote {
+    background-color:#e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
 }
