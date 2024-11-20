@@ -1,3 +1,7 @@
+* {
+    margin: auto;
+}
+
 header {
     display:flex;
     background-color: #1f2937;
@@ -9,9 +13,16 @@ header {
     border-bottom: 0;
 }
 
+#header1 {
+    justify-content:flex-end;
+}
+
+#header2 {
+    justify-content: flex-start;
+}
+
 .dark {
     display: flex;
-    justify-content:space-between;
     flex-wrap: wrap;
     flex-direction:column;
     background-color:#1f2937;
@@ -75,4 +86,9 @@ button {
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
+}
+
+.qtext {
+    width: 1000px;
+    background-color: #e5e7eb;
 }
