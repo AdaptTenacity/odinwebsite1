@@ -13,16 +13,25 @@ header {
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
+    flex-direction:column;
     background-color:#1f2937;
     font-family: roboto;
     color: #fff; 
     border: 0.5rem solid #1f2937;
     border-top: 0;
-    padding: 1rem
+    padding: 1rem;
 }
 
 #house {
     width: 250px;
+}
+
+#secimg {
+    width: 200px;
+}
+
+.prettypic {
+    display: flex;
 }
 
 .awesome {
