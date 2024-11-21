@@ -29,12 +29,21 @@ header {
     width: 250px;
 }
 
+.random {
+    display: flex;
+    justify-content:center;
+    font-size:36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 #secimg {
-    width: 200px;
+    width: 150px;
 }
 
 .prettypic {
     display: flex;
+    width: 1000px;
 }
 
 .awesome {
