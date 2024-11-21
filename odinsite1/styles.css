@@ -83,3 +83,32 @@ button {
     width: 1000px;
     background-color: #e5e7eb;
 }
+
+.plutosec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1000px;
+    margin:auto;
+    padding: 3rem;
+    border-radius: 12px;
+}
+
+.interior {
+    background-color:#3882F6;
+    width: 1000px;
+    color:#fff;
+
+}
+
+.plutext {
+    color:#fff;
+    font-size: 30px;
+}
+
+.flybutton {
+    padding: 0.5rem;
+    font-size: 15px;
+    border-radius: 2px;
+}
