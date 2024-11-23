@@ -50,6 +50,7 @@ header {
 .prettypic {
     display: flex;
     width: 1000px;
+    padding-bottom: 5rem;
 }
 
 .awesome {
