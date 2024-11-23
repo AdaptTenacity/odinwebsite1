@@ -75,6 +75,8 @@ button {
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
     background-color:#e5e7eb;
     font-size: 36px;
     color: #1F2937;
@@ -84,12 +86,12 @@ button {
 
 .author {
     display: flex;
-    align-items:self-end;
-    text-align: right;
+    align-self:flex-end;
     font-weight: bold;
 }
 
 .qtext {
+    display: flex;
     width: 1000px;
     background-color: #e5e7eb;
 }
@@ -99,7 +101,6 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    width: 1000px;
     margin-top:3rem;
     margin-bottom:3rem;
     padding: 3rem;
@@ -154,4 +155,5 @@ footer {
     padding: 3rem;
     background-color: #1F2937;
     color: #fff;
+    width: 1000px;
 }
