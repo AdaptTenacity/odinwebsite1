@@ -101,6 +101,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
+    width: 1000px;
     margin-top:3rem;
     margin-bottom:3rem;
     padding: 3rem;
