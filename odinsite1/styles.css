@@ -84,10 +84,13 @@ button {
     font-weight: lighter;
 }
 
-.author {
+#author {
     display: flex;
     align-self:flex-end;
     font-weight: bold;
+    width: 400px;
+    background-color:#e5e7eb;
+    font-size: 36px;
 }
 
 .qtext {
