@@ -23,10 +23,11 @@ header {
     border: 0.5rem solid #1f2937;
     border-top: 0;
     padding: 1rem;
+    
 }
 
 #house {
-    width: 250px;
+    width: 200px;
 }
 
 .random {
@@ -117,11 +118,16 @@ button {
     font-size: 30px;
 }
 
+.plutosec {
+    display: flex;
+    justify-content: space-between;
+}
+
 .flybutton {
     padding: 0.5rem;
     font-size: 15px;
     border-radius: 2px;
-
+    align-self: flex-end;
 }
 
 footer {
