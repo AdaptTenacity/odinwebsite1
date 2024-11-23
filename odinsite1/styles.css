@@ -27,6 +27,7 @@ header {
 }
 
 #house {
+    display: flex;
     width: 200px;
 }
 
@@ -40,6 +41,8 @@ header {
 
 #secimg {
     width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
 }
 
 .prettypic {
@@ -82,6 +85,7 @@ figcaption {
 .quote {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     background-color:#e5e7eb;
     font-size: 36px;
     color: #1F2937;
@@ -91,7 +95,7 @@ figcaption {
 
 #author {
     display: flex;
-    align-self:flex-end;
+    justify-self:flex-right;
     font-weight: bold;
     width: 400px;
     background-color:#e5e7eb;
