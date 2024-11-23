@@ -37,6 +37,8 @@ header {
     font-size:36px;
     color: #1F2937;
     font-weight: 900;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 #secimg {
