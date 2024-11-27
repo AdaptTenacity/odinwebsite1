@@ -21,7 +21,8 @@ header {
     color: #fff; 
     border: 0.5rem solid #1f2937;
     border-top: 0;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     
 }
 
@@ -29,16 +30,18 @@ header {
     justify-self: flex-start;
     max-width: 500px;
     justify-self: flex-end;
+    padding-left: 230px;
 }
 
 .half2 {
     max-width: 500px;
     justify-self: flex-start;
+    padding-right: 230px;
 }
 
 #house {
     display: flex;
-    width: 200px;
+    width: 300px;
 }
 
 .random {
