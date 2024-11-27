@@ -16,7 +16,6 @@ header {
 .dark {
     display: flex;
     flex-wrap: wrap;
-    flex-direction:column;
     background-color:#1f2937;
     font-family: roboto;
     color: #fff; 
@@ -27,6 +26,13 @@ header {
 }
 
 .half1 {
+    justify-self: flex-start;
+    max-width: 500px;
+    justify-self: flex-end;
+}
+
+.half2 {
+    max-width: 500px;
     justify-self: flex-start;
 }
 
@@ -66,6 +72,7 @@ header {
 .hero2 {
     font-size: 18px;
     color: #e5e7eb;
+    padding-left: 14px;
 }
 
 .abutton {
