@@ -4,6 +4,7 @@
 
 header {
     display:flex;
+    justify-content: flex-end;
     background-color: #1f2937;
     font-family: roboto;
     color: #fff;
@@ -11,17 +12,21 @@ header {
     border: 0.3rem solid #1f2937;
     border-top: 0;
     border-bottom: 0;
+    padding-right: 390px;
 }
 
 .header1 {
-    width: 150px;
+    width: 108px;
+    margin: 0;
+    padding-left: 10px;
 }
 
 .header2 {
     justify-self: flex-start;
     font-size: 24px;
     font-weight:900;
-    font-color: #F9FAF8;
+    color: #F9FAF8;
+    margin-left: 370px;
 }
 
 .dark {
@@ -125,6 +130,7 @@ figcaption {
     font-weight: bold;
     background-color:#e5e7eb;
     font-size: 36px;
+    text-align: end;
 }
 
 .qtext {
