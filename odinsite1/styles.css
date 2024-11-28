@@ -14,14 +14,14 @@ header {
 }
 
 .header1 {
-    justify-content: flex-end;
+    width: 150px;
 }
 
 .header2 {
     justify-self: flex-start;
     font-size: 24px;
     font-weight:900;
-    font-color: #F9FAF8
+    font-color: #F9FAF8;
 }
 
 .dark {
@@ -40,7 +40,6 @@ header {
 .half1 {
     justify-self: flex-start;
     max-width: 500px;
-    justify-self: flex-end;
     padding-left: 230px;
 }
 
